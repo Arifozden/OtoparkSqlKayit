@@ -1,0 +1,16 @@
+CREATE TABLE Tasit(
+    tc INTEGER NOT NULL ,
+    ad VARCHAR(255) NOT NULL ,
+    adres VARCHAR(255) NOT NULL ,
+    plaka VARCHAR(255) NOT NULL ,
+    marka VARCHAR(255) NOT NULL ,
+    model VARCHAR(255) NOT NULL ,
+    PRIMARY KEY (tc)
+);
+
+CREATE TABLE Araba(
+    id INTEGER AUTO_INCREMENT NOT NULL ,
+    marka VARCHAR(255) NOT NULL,
+    model VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
